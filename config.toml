@@ -9,7 +9,7 @@ hasCJKLanguage = false
 
 [params]
 	author = "Ángela Castillo-Gill"
-	description = "Ángela Castillo-Gill's journey to understand causal inference and it's application on product management."
+	description = "A journey to understand causal inference and it's application on product management."
 	bio = "Ángela Castillo-Gill's journey to understand causal inference and it's application on product management."
 
 	twitter = "https://www.twitter.com/acastillogill"
@@ -57,7 +57,7 @@ hasCJKLanguage = false
 	readMore = ""
 
 	# Share
-	enableShare = true
+	enableShare = false
 	tweet = ""
 	share = ""
 
