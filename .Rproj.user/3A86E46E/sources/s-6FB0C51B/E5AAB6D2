@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580932877319.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E5AAB6D2",
+    "lastKnownWriteTime" : 1580933361,
+    "last_content_update" : 1580933361872,
+    "path" : "~/causeforconcern/content/posts/2015-07-23-r-rmarkdown.Rmd",
+    "project_path" : "content/posts/2015-07-23-r-rmarkdown.Rmd",
+    "properties" : {
+        "cursorPosition" : "32,24",
+        "last_setup_crc32" : "6FB0C51B86caa7c1",
+        "scrollLine" : "26"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
