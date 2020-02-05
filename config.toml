@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://causeforconcern.dev"
+baseurl = "https://causeforconcern.dev"
 languageCode = "en"
 title = "Cause for Concern"
 theme = "hugo-theme-cactus-plus"
@@ -9,8 +9,8 @@ hasCJKLanguage = false
 
 [params]
 	author = "Ángela Castillo-Gill"
-	description = "A journey to understand causal inference and it's application on product management."
-	bio = "Ángela Castillo-Gill's journey to understand causal inference and it's application on product management."
+	description = "A journey to understand causal inference and product management."
+	bio = "A journey to understand causal inference and product management."
 
 	twitter = "https://www.twitter.com/acastillogill"
 
