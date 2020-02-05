@@ -1,18 +1,19 @@
 # Site settings
-baseurl = "" 
-relativeurls = true
 languageCode = "en"
 title = "Cause for Concern"
 theme = "hugo-theme-cactus-plus"
-# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
-hasCJKLanguage = false
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# baseurl = "https://acastillogill.com/"
+relativeurls = true
+
+[permalinks]
+    post = "/:year/:month/:slug"
 
 [params]
 	author = "Ángela Castillo-Gill"
 	description = "A journey to understand causal inference and product management."
 	bio = "A journey to understand causal inference and product management."
-
-	twitter = "https://www.twitter.com/acastillogill"
 
 	enableRSS = false
 	enableToc = true
@@ -27,63 +28,70 @@ disqusShortname = "https-acastillogill-com"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-128602464-1"
 
-[permalinks]
-    post = "/:year/:month/:slug"
 
+    # Enter your email address to display your Gravatar icon in the profile. If not set the theme
+    # will fallback to the avatar.
+    gravatar = ""
+    logo = ""
     disable_mathjax = false # set to true to disable MathJax
-	enableSummary = true
-	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = false
+
+    # define which types of pages should be shown. By default the type with the most regular pages
+    mainSections = ["post"]
+
+    # Format dates with Go's time formatting
+    date_format = "2006-01-02"
+
+    # Add custom assets with their paths relative to the static folder
+	custom_js  = [""]
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+[[params.menu]]
+    before = true
+    label  = "Home"
+    link   = "/"
+    
+
+# Enter a link for the follow button on the left
+[params.profile]
+    follow_button = "https://twitter.com/acastillogill"
 
 
-	enableGoogleAnalytics = true
-	enableBaiduAnalytics = false
-	# Set the value to your baidu analysis code if you want to use baidu analytics
-	baiduAnalytics = 'your_baidu_analysis_code'
 
-	enableTwitterCard = true
-	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = ""
-
-	# Add custom assets with their paths relative to the static folder
-	customCSS = []
-	customJS  = []
-
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
-
-	# Navigation links
-	home = ""
-	about = ""
-	archive = ""
-	subscribe = ""
-
-	olderPosts = ""
-	newerPosts = ""
-	copyright = "© Copyright 2020 | Ángela Castillo-Gill"
-
-	# show latest posts in single page
-	showLatestPosts = false
-	readMore = ""
-
-	# Share
-	enableShare = false
-	tweet = ""
-	share = ""
-
-	# 404 page
-	title404 = ""
-	subtitle404 = ""
-
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
-  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
-
+# options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.14.2"
     highlightjsCDN = "//cdn.bootcss.com"
     highlightjsLang = ["r", "yaml"]
     highlightjsTheme = "atom-one-light"
 
+# Define the number of posts per page
+paginate = 10
+footnotereturnlinkcontents = "↩"
+footnoteanchorprefix = "°"
 
- ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+#  enable GDPR settings
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
