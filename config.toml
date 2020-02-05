@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://causeforconcern.dev"
+baseurl = "" 
 languageCode = "en"
 title = "Cause for Concern"
 theme = "hugo-theme-cactus-plus"
