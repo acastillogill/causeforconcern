@@ -14,7 +14,7 @@ hasCJKLanguage = false
 
 	twitter = "https://www.twitter.com/acastillogill"
 
-	enableRSS = true
+	enableRSS = false
 	enableToc = true
 
 	enableDisqus = true
@@ -76,4 +76,4 @@ hasCJKLanguage = false
 	twitter-square = "https://www.twitter.com/acastillogill"
 	github-square = "https://www.github.com/acastillogill"
 
-# set the option ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
