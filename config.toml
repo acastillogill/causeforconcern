@@ -76,4 +76,4 @@ hasCJKLanguage = false
 	twitter-square = "https://www.twitter.com/acastillogill"
 	github-square = "https://www.github.com/acastillogill"
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
