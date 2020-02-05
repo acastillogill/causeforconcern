@@ -1,2 +1,3 @@
-# causeforconcern.github.io
-# acastillogill.github.io
+# Welcome!
+
+Hi and welcome to my blog's repo.
